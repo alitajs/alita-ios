@@ -1,0 +1,40 @@
+{
+  "name": "AlitaNativeLib",
+  "version": "0.0.1-alpha.3",
+  "summary": "Alita Micro App iOS SDK",
+  "description": "An framework provide micro app platform ability.",
+  "homepage": "https://micro.alitajs.com/",
+  "license": {
+    "type": "Copyright",
+    "text": "      Copyright 2020 iwhalecloud.com. All rights reserved.\n"
+  },
+  "authors": {
+    "Ashoka": "savebtc11@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/WhaleCloudCamp/micro-app-ios-framework.git",
+    "tag": "0.0.1-alpha.3"
+  },
+  "vendored_frameworks": "AlitaNativeLib.framework",
+  "requires_arc": true,
+  "dependencies": {
+    "SSZipArchive": [
+      "~> 2.2"
+    ],
+    "AFNetworking": [
+      "~> 4.0"
+    ],
+    "TZImagePickerController": [
+      "~> 3.4"
+    ],
+    "LBXScan/UI": [
+      "~> 2.5"
+    ],
+    "LBXScan/LBXNative": [
+      "~> 2.5"
+    ]
+  }
+}

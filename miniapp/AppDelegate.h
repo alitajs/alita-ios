@@ -6,9 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AlitaNativeLib/AlitaNativeLib.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@property (nonatomic, strong) UIWindow *window;
 
 @end
 
