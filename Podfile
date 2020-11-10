@@ -6,7 +6,7 @@ target 'miniapp' do
   use_frameworks!
 
   # Pods for miniapp
-  pod 'AlitaNativeLib', :git => 'https://github.com/WhaleCloudCamp/micro-app-ios-framework.git'
+  pod 'AlitaNativeLib', :git => 'https://github.com/alitajs/micro-app-ios-framework.git'
 
 
   target 'miniappTests' do
