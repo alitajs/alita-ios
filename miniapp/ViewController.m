@@ -26,7 +26,11 @@
     [super viewDidAppear:animated];
     if (!self.webViewController) {
         NSURL *url = [[[NSBundle mainBundle] bundleURL] URLByAppendingPathComponent:@"www/index.html"];
-        [AlitaNative viewController:self openURL:url userData:@{}];
+        UINavigationController *nav = [AlitaNative viewControllerWithURL:url userData:@{}];
+        self.webViewController = nav.viewControllers.firstObject;
+        self.webViewController.hideNavBar = YES;
+        nav.modalPresentationStyle = UIModalPresentationFullScreen;
+        [self presentViewController:nav animated:YES completion:nil];
     }
     
 }
